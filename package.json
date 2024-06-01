@@ -1,0 +1,33 @@
+{
+  "name": "lipsync-calibrator",
+  "version": "0.7.0",
+  "description": "Application for calibrating viseme 3D models.",
+  "author": "AlexEvs",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/a1exevs/lipsync-calibrator-publish/issues"
+  },
+  "keywords": [
+    "lipsync",
+    "3d model",
+    "threejs"
+  ],
+  "scripts": {
+    "start": "yarn install && serve -s build"
+  },
+  "dependencies": {
+    "serve": "14.2.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
